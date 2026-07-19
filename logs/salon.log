@@ -1,0 +1,15 @@
+/Users/yegor/Documents/Acore/Development/jobiz/portfolio-bots/telegram-salon-bot/handlers/booking.py:376: PTBUserWarning: If 'per_message=False', 'CallbackQueryHandler' will not be tracked for every message. Read this FAQ entry to learn more about the per_* settings: https://github.com/python-telegram-bot/python-telegram-bot/wiki/Frequently-Asked-Questions#what-do-the-per_-settings-in-conversationhandler-do.
+  return ConversationHandler(
+2026-07-18 18:23:58,552 [INFO] apscheduler.scheduler: Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-07-18 18:23:58,552 [INFO] __main__: Salon bot started. Polling for updates...
+2026-07-18 18:23:58,650 [INFO] __main__: Database initialized and seeded.
+2026-07-18 18:23:58,678 [INFO] apscheduler.scheduler: Added job "check_reminders" to job store "default"
+2026-07-18 18:23:58,678 [INFO] apscheduler.scheduler: Scheduler started
+2026-07-18 18:24:28,556 [INFO] apscheduler.executors.default: Running job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 16:39:28 UTC)" (scheduled at 2026-07-18 16:24:28.551434+00:00)
+2026-07-18 18:24:28,560 [INFO] apscheduler.executors.default: Job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 16:39:28 UTC)" executed successfully
+2026-07-18 18:27:04,681 [WARNING] ops_webhook: ops-lab webhook failed: <urlopen error [Errno 61] Connection refused>
+2026-07-18 18:38:55,619 [WARNING] ops_webhook: ops-lab webhook failed: <urlopen error [Errno 61] Connection refused>
+2026-07-18 18:39:28,562 [INFO] apscheduler.executors.default: Running job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 16:54:28 UTC)" (scheduled at 2026-07-18 16:39:28.551434+00:00)
+2026-07-18 18:39:28,564 [INFO] apscheduler.executors.default: Job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 16:54:28 UTC)" executed successfully
+2026-07-18 18:54:28,562 [INFO] apscheduler.executors.default: Running job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 17:09:28 UTC)" (scheduled at 2026-07-18 16:54:28.551434+00:00)
+2026-07-18 18:54:28,566 [INFO] apscheduler.executors.default: Job "check_reminders (trigger: interval[0:15:00], next run at: 2026-07-18 17:09:28 UTC)" executed successfully

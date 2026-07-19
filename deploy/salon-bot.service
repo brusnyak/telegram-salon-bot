@@ -1,0 +1,14 @@
+[Unit]
+Description=Telegram Salon Booking Bot
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/ubuntu/portfolio-bots/telegram-salon-bot/.venv/bin/python -m main
+WorkingDirectory=/home/ubuntu/portfolio-bots/telegram-salon-bot
+Restart=on-failure
+RestartSec=10
+EnvironmentFile=/home/ubuntu/portfolio-bots/telegram-salon-bot/.env
+
+[Install]
+WantedBy=default.target
