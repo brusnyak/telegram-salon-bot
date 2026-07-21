@@ -8,6 +8,10 @@
 
 Appointment booking bot for Salón Kráľovná. Customers book stylist appointments through a Telegram conversation flow, while salon admins receive daily summaries, cancellations, reminders, and operational webhook events.
 
+## Demo
+
+[Live demo video](https://youtu.be/tlSO3s49Gfw) — full booking flow: service selection, stylist choice, date/time slot, and confirmed booking.
+
 ## Overview
 
 Telegram Salon Bot is designed as a small production-ready service for a salon appointment workflow. It keeps the user experience inside Telegram, stores bookings locally in SQLite, and uses an in-process scheduler for reminder delivery.
